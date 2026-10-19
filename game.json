@@ -1,0 +1,12 @@
+{
+  "id": "canoa",
+  "name": "Canoa",
+  "description": "Para dois, com um fone: um rema, o outro guia pela voz.",
+  "version": "0.1.0",
+  "contract": 1,
+  "runtime": "python3",
+  "exec": "main.py",
+  "languages": ["pt-BR"],
+  "tags": ["a11y", "dueto"],
+  "author": "Gabs"
+}
