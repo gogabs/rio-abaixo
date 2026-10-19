@@ -17,6 +17,11 @@ if [ ! -d "$SDK_PY" ]; then
   fi
   SDK_PY="$HERE/r36s_a11y"
 fi
+# A Canoa precisa do som por ouvido (ears.py); um clone antigo do Mage Core não tem.
+if [ ! -f "$SDK_PY/ears.py" ] && [ -f "$HERE/r36s_a11y/ears.py" ]; then
+  echo "O Mage Core em $SDK_PY ainda não tem o som por ouvido; usando a cópia do jogo."
+  SDK_PY="$HERE/r36s_a11y"
+fi
 [ -d "$SDK_PY" ] || { echo "Mage Core não encontrado."; exit 1; }
 echo "Mage Core selecionado: $SDK_PY"
 
