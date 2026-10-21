@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Canoa: dois jogadores, um fone. Quem está com o console rema, o outro guia."""
+"""Rio Abaixo: dois jogadores, um fone. Quem está com o console rema, o outro guia."""
 import json
 import os
 import sys
@@ -12,9 +12,9 @@ if not os.path.isdir(os.path.join(HERE, "r36s_a11y")):
 
 import r36s_a11y as a11y
 
-from canoa import config as C
-from canoa import textos as T
-from canoa.rio import Stretch
+from rio_abaixo import config as C
+from rio_abaixo import textos as T
+from rio_abaixo.rio import Stretch
 
 game = a11y.Game(repeat=False)
 ears = game.ears
@@ -185,7 +185,7 @@ def on_main(index, item):
         game.quit()
 
 
-main_menu = a11y.Menu(game, "Canoa", MAIN_ITEMS, on_select=on_main, on_back=game.quit,
+main_menu = a11y.Menu(game, "Rio Abaixo", MAIN_ITEMS, on_select=on_main, on_back=game.quit,
                       sounds=menu_sounds)
 
 

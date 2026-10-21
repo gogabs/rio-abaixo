@@ -2,7 +2,7 @@
 
 A cópia de reserva em `r36s_a11y/` vem de
 [gogabs/r36s-a11y-sdk](https://github.com/gogabs/r36s-a11y-sdk), no commit
-registrado em `sdk-origin.json`, junto com os hashes dos arquivos. A Canoa
+registrado em `sdk-origin.json`, junto com os hashes dos arquivos. O Rio Abaixo
 precisa do `game.ears` (som num ouvido só), que entrou no Mage Core junto com
 este jogo.
 

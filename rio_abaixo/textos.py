@@ -2,7 +2,7 @@
 from . import config as C
 from .rio import plural
 
-INTRO = ("Canoa. Um jogo para dois, com um fone só: cada pessoa fica com um lado. "
+INTRO = ("Rio Abaixo. Um jogo para dois, com um fone só: cada pessoa fica com um lado. "
          "Quem está com o console rema; o outro é o vigia e guia pela voz.")
 
 EAR_TEST = ("Teste de fones. Vão tocar dois bips, um em cada lado do fone. "
@@ -24,11 +24,11 @@ HELP = (
      "esquerda. A correnteza leva a canoa mesmo sem remar e endireita a proa aos poucos. "
      "Encostar na margem raspa e freia."),
     ("O que o vigia ouve",
-     "Pedra à esquerda da canoa é um toque grave de madeira. Pedra à direita é um sino "
-     "agudo. Pedra bem na frente é um alarme duplo: hora de desviar. Quanto mais perto, "
-     "mais alto e mais rápido. Boia é um borbulhar: grave à esquerda, agudo à direita, "
-     "médio na frente. Margem perto é um farfalhar de folhas, grave na esquerda e agudo "
-     "na direita."),
+     "Pedra é uma batida de pedra: grave se está à esquerda da canoa, aguda se está "
+     "à direita. Pedra bem na frente é outra batida, no tom do meio: hora de desviar. "
+     "Quanto mais perto, mais alto e mais rápido. Boia bem na frente é um borbulhar. "
+     "Boia dos lados é um sininho: grave à esquerda, agudo à direita. Margem perto é um "
+     "farfalhar de folhas, grave na esquerda e agudo na direita."),
     ("Boias",
      "Quando o vigia ouvir a boia bem na frente e bem rápido, ele avisa, e o piloto "
      "aperta B para pegar. Boia vale pontos; pedra e margem tiram."),
