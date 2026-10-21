@@ -6,8 +6,9 @@ vigia, não aperta nada e guia pela voz.
 
 - O piloto ouve só a canoa: as remadas, a água no casco e as batidas.
 - O vigia ouve só o rio à frente: pedras, boias e margens. Como ele tem um
-  ouvido só, o lado vem pelo timbre: grave é à esquerda, agudo é à direita,
-  alarme duplo é bem na frente. Mais perto, mais alto e mais rápido.
+  ouvido só, o lado vem do próprio som: pedra grave é à esquerda, aguda é à
+  direita, e um baque duplo é bem na frente; bolhas que descem são boia à
+  esquerda, que sobem são à direita. Mais perto, mais alto e mais rápido.
 - O rio tem 3 trechos. No remanso, passem o console. Ninguém troca de fone:
   o jogo troca o que toca em cada lado.
 
@@ -46,7 +47,7 @@ No console, com o Mage Core clonado ao lado deste repositório:
 
 ```bash
 python3 -m unittest discover -s tests   # testes, inclusive um piloto automático
-python3 tools/gerar_sons.py             # sons provisórios
+python3 tools/gerar_sons.py             # sons, por síntese (--previa gera amostras)
 python3 tools/sync_sdk.py               # atualiza a cópia do Mage Core em r36s_a11y/
 ```
 

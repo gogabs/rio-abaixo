@@ -24,11 +24,12 @@ HELP = (
      "esquerda. A correnteza leva a canoa mesmo sem remar e endireita a proa aos poucos. "
      "Encostar na margem raspa e freia."),
     ("O que o vigia ouve",
-     "Pedra à esquerda da canoa é um toque grave de madeira. Pedra à direita é um sino "
-     "agudo. Pedra bem na frente é um alarme duplo: hora de desviar. Quanto mais perto, "
-     "mais alto e mais rápido. Boia é um borbulhar: grave à esquerda, agudo à direita, "
-     "médio na frente. Margem perto é um farfalhar de folhas, grave na esquerda e agudo "
-     "na direita."),
+     "Pedra é um toque seco de pedra: grave se está à esquerda da canoa, agudo se está "
+     "à direita. Pedra bem na frente é outro som, um baque duplo e encorpado: hora de "
+     "desviar. Quanto mais perto, mais alto e mais rápido. Boia é um borbulhar: bolhas "
+     "que descem de tom estão à esquerda, bolhas que sobem estão à direita, e um punhado "
+     "de bolhas embaralhadas é bem na frente. Margem perto é um farfalhar de folhas com "
+     "água batendo, grave na esquerda e agudo na direita."),
     ("Boias",
      "Quando o vigia ouvir a boia bem na frente e bem rápido, ele avisa, e o piloto "
      "aperta B para pegar. Boia vale pontos; pedra e margem tiram."),
