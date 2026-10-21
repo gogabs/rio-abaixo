@@ -17,7 +17,9 @@ O vigia tem um ouvido só, então o lado vem do próprio som:
   - margem: folhas e água batendo no barranco; o mesmo som, mais grave à
     esquerda e mais agudo à direita.
 
-Para trocar um som, ponha um arquivo com o mesmo nome em sounds/ (WAV ou OGG).
+Os sons gravados (CC0, de terceiros) saem de tools/preparar_sons.py e este
+gerador pula esses nomes. Para trocar um som, ponha um arquivo com o mesmo
+nome em sounds/ (WAV ou OGG).
 
     python3 tools/gerar_sons.py            # sons do jogo em sounds/
     python3 tools/gerar_sons.py --previa   # também as opções e as cenas de amostra
@@ -28,6 +30,8 @@ import random
 import struct
 import sys
 import wave
+
+from preparar_sons import SOUNDS as RECORDED
 
 RATE = 44100
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -479,7 +483,8 @@ def normalized(sounds):
 def main():
     sounds = normalized(game_sounds())
     for name, (clip, peak) in sounds.items():
-        write(OUT, name, clip, peak, loop=name == "agua")
+        if name not in RECORDED:
+            write(OUT, name, clip, peak, loop=name == "agua")
     print("sons em %s" % os.path.normpath(OUT))
     if "--previa" in sys.argv:
         for name, (clip, peak) in options().items():
