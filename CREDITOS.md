@@ -1,6 +1,6 @@
 # Créditos dos sons
 
-Os sons gravados da Canoa são de terceiros, todos em **CC0 1.0** (domínio
+Os sons gravados do Rio Abaixo são de terceiros, todos em **CC0 1.0** (domínio
 público): não exigem crédito, mas ficam aqui por gentileza e para saber de
 onde veio cada um. Os originais, já recortados, estão em `sons-originais/`;
 `tools/preparar_sons.py` acerta volume, taxa e tom e grava em `sounds/`.

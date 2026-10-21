@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera os sons da Canoa por síntese, só com a biblioteca padrão.
+"""Gera os sons do Rio Abaixo por síntese, só com a biblioteca padrão.
 
 Nada é gravado nem baixado: cada som sai das fórmulas abaixo, então os
 arquivos têm a mesma licença do jogo e não pedem crédito a ninguém.

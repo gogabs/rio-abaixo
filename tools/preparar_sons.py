@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Prepara os sons gravados (de terceiros, CC0) que a Canoa usa, só com a biblioteca padrão.
+"""Prepara os sons gravados (de terceiros, CC0) que o Rio Abaixo usa, só com a biblioteca padrão.
 
 Os originais ficam em sons-originais/, como vieram (já recortados), e os
 créditos em CREDITOS.md. Daqui saem os arquivos de sounds/: no mesmo nível de

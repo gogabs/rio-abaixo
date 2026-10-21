@@ -1,4 +1,4 @@
-# Canoa
+# Rio Abaixo
 
 Jogo de áudio para dois no R36S acessível, no **modo dueto**: um fone, cada
 pessoa com um lado. Quem está com o console é o piloto e rema; o outro é o
@@ -53,5 +53,5 @@ python3 tools/gerar_sons.py             # os outros sons, por síntese (--previa
 python3 tools/sync_sdk.py               # atualiza a cópia do Mage Core em r36s_a11y/
 ```
 
-Números do rio e da canoa em [canoa/config.py](canoa/config.py). Autores e
+Números do rio e da canoa em [rio_abaixo/config.py](rio_abaixo/config.py). Autores e
 licenças dos sons gravados em [CREDITOS.md](CREDITOS.md).

@@ -2,7 +2,7 @@
 from . import config as C
 from .rio import plural
 
-INTRO = ("Canoa. Um jogo para dois, com um fone só: cada pessoa fica com um lado. "
+INTRO = ("Rio Abaixo. Um jogo para dois, com um fone só: cada pessoa fica com um lado. "
          "Quem está com o console rema; o outro é o vigia e guia pela voz.")
 
 EAR_TEST = ("Teste de fones. Vão tocar dois bips, um em cada lado do fone. "

@@ -4,9 +4,9 @@ import unittest
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 
-from canoa import config as C  # noqa: E402
-from canoa import textos as T  # noqa: E402
-from canoa.rio import BUOY, ROCK, Stretch, Thing, side_of  # noqa: E402
+from rio_abaixo import config as C  # noqa: E402
+from rio_abaixo import textos as T  # noqa: E402
+from rio_abaixo.rio import BUOY, ROCK, Stretch, Thing, side_of  # noqa: E402
 
 
 class FakeUI:
