@@ -12,8 +12,8 @@ O vigia tem um ouvido só, então o lado vem do próprio som:
   - pedra: um toque de pedra. Esquerda e direita são o mesmo toque, só muda
     a altura (grave à esquerda, agudo à direita). Bem na frente é outro som,
     um baque duplo e encorpado: hora de desviar.
-  - boia: borbulhar. Na frente é um punhado de bolhas sem ordem; dos lados é
-    uma fileira de bolhas que desce (esquerda, grave) ou sobe (direita, agudo).
+  - boia: na frente é um punhado de bolhas; dos lados é um sino de boia, o
+    mesmo sino grave à esquerda e agudo à direita.
   - margem: folhas e água batendo no barranco; o mesmo som, mais grave à
     esquerda e mais agudo à direita.
 
@@ -412,9 +412,9 @@ def game_sounds():
     s["pedra_esq"] = (knock(ROCK_LEFT), 0.8)
     s["pedra_dir"] = (knock(ROCK_RIGHT), 0.8)
     s["pedra_frente"] = (rock_front(), 0.85)
-    s["boia_esq"] = (bubble_line(620, 0.8), 0.75)      # desce
+    s["boia_esq"] = (bell(520), 0.75)
     s["boia_frente"] = (bubble_cluster(520), 0.75)
-    s["boia_dir"] = (bubble_line(600, 1.25), 0.75)     # sobe
+    s["boia_dir"] = (bell(1170), 0.75)
     s["margem_esq"] = (bank(0.65), 0.6)
     s["margem_dir"] = (bank(1.45), 0.6)
     s["menu_mover"] = (tone(880, 0.06, tau=0.03), 0.4)
@@ -426,8 +426,8 @@ def game_sounds():
 def options():
     """Alternativas para comparar na prévia; não entram no jogo."""
     return {
-        "opcao_boia_sino_esq": (bell(520), 0.75),
-        "opcao_boia_sino_dir": (bell(1170), 0.75),
+        "opcao_boia_bolhas_esq": (bubble_line(620, 0.8), 0.75),     # desce
+        "opcao_boia_bolhas_dir": (bubble_line(600, 1.25), 0.75),    # sobe
         "opcao_pedra_frente_simples": (knock(800), 0.8),
     }
 

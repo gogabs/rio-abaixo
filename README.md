@@ -7,8 +7,8 @@ vigia, não aperta nada e guia pela voz.
 - O piloto ouve só a canoa: as remadas, a água no casco e as batidas.
 - O vigia ouve só o rio à frente: pedras, boias e margens. Como ele tem um
   ouvido só, o lado vem do próprio som: pedra grave é à esquerda, aguda é à
-  direita, e um baque duplo é bem na frente; bolhas que descem são boia à
-  esquerda, que sobem são à direita. Mais perto, mais alto e mais rápido.
+  direita, e um baque duplo é bem na frente; boia na frente é um borbulhar,
+  e dos lados é um sininho, grave à esquerda e agudo à direita. Mais perto, mais alto e mais rápido.
 - O rio tem 3 trechos. No remanso, passem o console. Ninguém troca de fone:
   o jogo troca o que toca em cada lado.
 

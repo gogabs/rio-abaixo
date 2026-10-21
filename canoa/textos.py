@@ -26,9 +26,8 @@ HELP = (
     ("O que o vigia ouve",
      "Pedra é um toque seco de pedra: grave se está à esquerda da canoa, agudo se está "
      "à direita. Pedra bem na frente é outro som, um baque duplo e encorpado: hora de "
-     "desviar. Quanto mais perto, mais alto e mais rápido. Boia é um borbulhar: bolhas "
-     "que descem de tom estão à esquerda, bolhas que sobem estão à direita, e um punhado "
-     "de bolhas embaralhadas é bem na frente. Margem perto é um farfalhar de folhas com "
+     "desviar. Quanto mais perto, mais alto e mais rápido. Boia bem na frente é um "
+     "borbulhar. Boia dos lados é um sininho: grave à esquerda, agudo à direita. Margem perto é um farfalhar de folhas com "
      "água batendo, grave na esquerda e agudo na direita."),
     ("Boias",
      "Quando o vigia ouvir a boia bem na frente e bem rápido, ele avisa, e o piloto "
